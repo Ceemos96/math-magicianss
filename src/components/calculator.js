@@ -28,11 +28,11 @@ class Calculator extends React.PureComponent {
     return (
       <div className="calculator-wrapper">
         <div className="calculator">
-        <div className="output" onChange={this.handleDisplay}>
+          <div className="output" onChange={this.handleDisplay}>
             {currentState.next || currentState.total || 0}
           </div>
           <div className="operators-and-digits">
-          <button type="button" value="AC" onClick={this.handleClick}>
+            <button type="button" value="AC" onClick={this.handleClick}>
               AC
             </button>
             <button type="button" value="+/-" onClick={this.handleClick}>+/-</button>
