@@ -1,5 +1,5 @@
-import React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
+
 import calculate from '../logic/calculate';
 
 const Calculator = () => {
@@ -15,7 +15,7 @@ const Calculator = () => {
     }));
   };
 
-   const { total, next } = value;
+  const { total, next } = value;
   return (
     <div className="calculator-wrapper">
       <div className="calculator">
@@ -58,8 +58,8 @@ const Calculator = () => {
           </button>
         </div>
       </div>
-      </div>
-    );
-  }
+    </div>
+  );
+};
 
 export default Calculator;
