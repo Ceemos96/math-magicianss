@@ -15,6 +15,7 @@
 - Babel
 
 ## Link to project online
+- [Live link](https://632420d9c1fda77527d69fd5--storied-tiramisu-4294c4.netlify.app/)
 
 ## Getting Started
 
